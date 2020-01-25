@@ -17,6 +17,7 @@
         android:layout_marginBottom="256dp"
         android:background="@color/colorPrimary"
         android:gravity="center"
+        android:onClick="getStarted"
         android:padding="8dp"
         android:text="Get started with your day!"
         android:textColor="@color/colorAccent"
