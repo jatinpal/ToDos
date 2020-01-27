@@ -8,6 +8,12 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+    @Override
+    public void onBackPressed() {
+        //do nothing
+    }
+
+
     public void getStarted(View view) {
         Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);

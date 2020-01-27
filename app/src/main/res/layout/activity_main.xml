@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
         android:layout_marginLeft="64dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="64dp"
         android:layout_marginRight="64dp"
         android:layout_marginBottom="256dp"
@@ -19,15 +20,15 @@
         android:gravity="center"
         android:onClick="getStarted"
         android:padding="8dp"
-        android:text="Get started with your day!"
-        android:textColor="@color/colorAccent"
+        android:text="View tasks for today"
+        android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -35,12 +36,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
         android:layout_marginLeft="64dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="64dp"
         android:layout_marginRight="64dp"
         android:alpha="1"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/calendarnew" />
