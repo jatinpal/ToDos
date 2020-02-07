@@ -31,6 +31,7 @@
             android:textSize="24sp" />
 
         <EditText
+            android:id="@+id/et_editTitle"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginBottom="5dp"
@@ -52,7 +53,7 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/addText"
+            android:id="@+id/et_addDesc"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginBottom="10dp"
